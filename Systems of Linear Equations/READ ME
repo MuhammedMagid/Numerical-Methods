@@ -1,0 +1,10 @@
+Consider a system of linear equations in matrix form, Ax=y, where A is an m×n matrix. 
+Recall that this means there are m equations and n unknowns in our system. 
+A solution to a system of linear equations is an x in Rn that satisfies the matrix form equation. 
+Depending on the values that populate A and y, there are three distinct solution possibilities for x.
+Either there is no solution for x, or there is one, unique solution for x, or there are an infinite number of solutions for x. 
+Case 1: There is no solution for x. If rank([A,y])=rank(A)+1
+Case 2: There is a unique solution for x. If  rank([A,y])=rank(A) & rank(A)=n 
+Case 3: There is an infinite number of solutions for x. If  rank([A,y])=rank(A) & rank(A) < n
+
+# WE here will only discuss how we solve a systems of equations when it has unique solution. 
